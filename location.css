@@ -100,7 +100,7 @@ iframe{
         align-items: center;
         width: 70%;
         margin: 100 auto;
-        height: 40vh;
+        height: 60vh;
     }
     
     .location-info-left {
@@ -115,7 +115,7 @@ iframe{
 @media screen and (max-width: 800px){
     .location-item{
         width: 90%;
-        height: 60vh;
+        height: 90vh;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
@@ -123,11 +123,11 @@ iframe{
     }
 
     .location-image img{
-        width: 250px;
+        width: 200px;
         height: 100%;
     }
 
     iframe{
-        height: 40vh;
+        height: 60vh;
     }
 }
