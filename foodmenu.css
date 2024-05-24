@@ -1,0 +1,394 @@
+body{
+ background-color: #2b2a29;
+}
+
+.menu-image{
+    margin-top: -25px;
+    height: 20vh;
+    background-image: linear-gradient(#EB6530, #fe7e4c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+.menu-image h1{
+    font-size: 50px;
+}
+
+.details-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #EB6530;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+    background-color: #ff4800;
+  }
+
+.menu{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #2b2a29;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-pizza{
+    background-color: #2b2a29;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza-container{
+    background-color: #2b2a29;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza-item{
+    width: 27%;
+    height: 500px;
+    margin: 10px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.pizza-item-photo-container{
+    height: 50%;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pizza-item-photo-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+}
+
+.menu-title{
+    font-size: 35px;
+    color: white;
+}
+
+.title{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+
+.description{
+    color: gray;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    width: 70%;
+}
+
+.price{
+    color: #EB6530;
+    font-weight: bolder;
+}
+
+.menu-sandwich{
+    background-color: #EB6530;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sandwich-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sandwich-item{
+    width: 45%;
+    height: 300px;
+    margin: 10px;
+    background-color: #2b2a29;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.sandwich-item-left{
+    background-color: #2b2a29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+}
+
+.sandwich-item-right{
+    background-color: #2b2a29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.sandwich-item-right img{
+    max-width: 100%; /* 95% of .pizza-item width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.sandwich-title{
+    color: white;
+    font-size:20px;
+    font-weight: bolder;
+}
+
+.sandwich-description{
+    color: gray;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    width: 70%;
+}
+
+.sandwich-price{
+    color: #EB6530;
+    font-weight: bolder;
+}
+
+.menu-pastry{
+    background-color: #2b2a29;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pastry-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pastry-item{
+    width: 25%;
+    margin-right: 10px;
+    height: 500px;
+    margin: 10px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.pastry-item-photo-container{
+    height: 50%;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pastry-item-photo-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-beverages{
+    background-color: #eeeeee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beverages-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.beverages-item{
+    width: 20%;
+    margin-right: 10px;
+    height: 500px;
+    margin: 10px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.beverages-item img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
+.bev-img{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 479px) {
+    .pizza-container{
+        flex-direction: column;
+    }
+
+    .pizza-item{
+        width: 85%;
+    }
+
+    .sandwich-container{
+        flex-direction: column;
+    }
+
+    .sandwich-item{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .sandwich-item-right{
+        width: 70%;
+        height: 40vh;
+    }
+
+    .sandwich-item-right img{
+        width:100%;
+    }
+
+    .sandwich-description{
+        width: 100%;
+    }
+
+    .pastry-container{
+        flex-direction: column;
+    }
+
+    .pastry-item{
+        width: 85%;
+    }
+
+    .beverages-container{
+        flex-direction: column;
+    }
+
+    .beverages-item{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 479px) and (max-width: 767px) {
+    .pizza-container{
+        flex-direction: column;
+    }
+
+    .pizza-item{
+        width: 60%;
+    }
+
+    .sandwich-container{
+        flex-direction: column;
+    }
+
+    .sandwich-item{
+        width: 100%;
+    }
+
+    .sandwich-item-right img{
+        width:80%;
+    }
+
+    .pastry-container{
+        flex-direction: column;
+    }
+
+    .pastry-item{
+        width: 70%;
+    }
+
+    .beverages-container{
+        flex-direction: column;
+    }
+
+    .beverages-item{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .sandwich-container{
+        flex-direction: column;
+    }
+
+    .sandwich-item{
+        width: 80%;
+    }
+
+    .sandwich-item-right img{
+        width: 80%;
+    }
+
+    .pizza-item{
+        width: 40%;
+    }
+
+    .pastry-item{
+        width: 40%;
+    }
+
+    .beverages-item{
+        width: 40%;
+    }
+}

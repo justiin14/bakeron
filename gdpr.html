@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <title>Bakeron</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="website icon" type="png" href="images/BAKERON_-_logo.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/BAKERON_-_logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="menu.html">Meniu</a></li>
+                    <li><a href="location.html">Locații</a></li>
+                    <li><a href="about.html">Despre noi</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="index.html">Acasă</a></li>
+                    <li class="hideOnMobile"><a href="menu.html">Meniu</a></li>
+                    <li class="hideOnMobile"><a href="location.html">Locații</a></li>
+                    <li class="hideOnMobile"><a href="about.html">Despre noi</a></li>
+                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                    <li class="menu-mobile-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width= "24" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="gdpr" style="padding: 50px 0px;">
+        <div class="gdpr-container">
+            <h1 style="text-align: center;">Politica de Confidențialitate și Protecția Datelor Personale</h1>
+            <h2>Introducere</h2>
+            <p>Bine ai venit la Politica noastră de Confidențialitate și Protecția Datelor Personale. 
+                Ne preocupă protejarea datelor tale personale și ne angajăm să respectăm confidențialitatea și securitatea acestora 
+                în conformitate cu legislația aplicabilă în domeniul protecției datelor, inclusiv Regulamentul General privind Protecția Datelor (GDPR).</p>
+            <h2>Ce date personale colectăm și de ce?</h2>
+            <p>Pe acest site, colectăm și prelucrăm următoarele categorii de date personale:
+                <br>    
+                • Numele și adresa de e-mail pe care le furnizezi voluntar prin intermediul formularului de contact, pentru a răspunde la întrebările tale sau pentru a-ți oferi suportul necesar.
+                <br>
+                • Orice alte informații pe care le furnizezi voluntar în mesajele tale către noi prin intermediul formularului de contact.</p>
+            <h2>Cum folosim datele tale personale?</h2>
+            <p>Datele tale personale sunt utilizate exclusiv în următoarele scopuri:
+                <br>
+                • Pentru a răspunde la solicitările tale și pentru a furniza suportul solicitat.
+                <br>
+                • Pentru a ne asigura că îți oferim informațiile și serviciile relevante și de cea mai bună calitate.</p>
+            <h2>Politica privind cookie-urile</h2>
+            <p>Nota: În prezent, acest site nu utilizează cookie-uri. Cu toate acestea, 
+                orice modificare în politica noastră privind cookie-urile va fi actualizată aici.</p>
+            <h2>Cum protejăm datele tale personale?</h2>
+            <p>Ne angajăm să luăm măsuri tehnice și organizatorice adecvate pentru a proteja datele tale personale împotriva pierderii, 
+                accesului neautorizat, divulgării sau utilizării neautorizate.</p>
+            <h2>Cum îți exerciți drepturile?</h2>
+            <p>Ai dreptul de a accesa, rectifica, șterge sau restricționa prelucrarea datelor tale personale, 
+                precum și dreptul de a te opune prelucrării acestora sau de a solicita portabilitatea datelor. 
+                Pentru a exercita aceste drepturi sau pentru orice alte întrebări legate de protecția datelor, 
+                te rugăm să ne contactezi folosind detaliile de contact de mai jos.</p>
+            <h2>Cum te ținem la curent?</h2>
+            <p>Orice modificare semnificativă a acestei Politici de Confidențialitate și Protecția Datelor Personale va fi notificată pe această pagină.</p>
+            <h2>Contact</h2>
+            <p>Pentru întrebări sau solicitări legate de protecția datelor personale, te rugăm să ne contactezi la adresa de e-mail office@bakeron.ro sau folosind datele noastre de contact disponibile pe pagina de contact a site-ului.</p>
+        </div>
+        <hr style="background-color: #EB6530; width: 100%; height: 4px; border: none;">
+    </section>
+
+    <footer>
+        <div class="footer-item">
+            <h3>Social Media</h3>
+            <a href="https://www.facebook.com/profile.php?id=61551114673277" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href="https://www.instagram.com/bakeronromania/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@bakeronromania" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+        <div class="footer-item">
+            <h3>Informații utile</h3>
+            <a href="about.html">Despre noi</a>
+            <a href="https://anpc.ro" target="_blank">ANPC</a>
+            <a href="gdpr.html">GDPR</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contact</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Bulevardul Eroilor, Nr. 42</p>
+            <p>Cluj-Napoca, Romania</p>
+            <p><i class="fas fa-phone"></i> 0771 502 664</p>
+            <p><i class="fas fa-envelope"></i> office@bakeron.ro</p>
+        </div>
+        <div class="footer-below">
+            <a href="https://anpc.ro/ce-este-sal/" target="_blank"><img src="images/anpc-sal-1.png" width="200px" alt=""></a>
+            <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO" target="_blank"><img src="images/anpc-sol-1.png" width="200px" alt=""></a>
+        </div>
+        <p style="color: #EB6530">&copy; Bakeron 2024. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>

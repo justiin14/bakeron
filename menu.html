@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="foodmenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="website icon" type="png" href="images/BAKERON_-_logo.png">
+    <title>Bakeron</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/BAKERON_-_logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="menu.html">Meniu</a></li>
+                    <li><a href="location.html">Locații</a></li>
+                    <li><a href="about.html">Despre noi</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="index.html">Acasă</a></li>
+                    <li class="hideOnMobile"><a href="menu.html">Meniu</a></li>
+                    <li class="hideOnMobile"><a href="location.html">Locații</a></li>
+                    <li class="hideOnMobile"><a href="about.html">Despre noi</a></li>
+                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                    <li class="menu-mobile-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width= "24" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="menu">
+        <div class="menu-image">
+            <h1>Meniu</h1>
+        </div>
+
+        <div class="menu-pizza">
+            <p class="menu-title">Pizza</h2>
+            <div class="pizza-container">
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza prosciutto crudo.png" alt="pizza photo">
+                    </div> 
+                    <p class="title">Pizza prosciutto crudo si rucolla</p>
+                    <p class="description">sos de roșii, mozzarella, prosciutto crudo, rucola, parmezan<p>
+                    <a class="details-button" href="product.html?id=1">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza salami.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza salami</p>
+                    <p class="description">sos de roșii, mozzarella, salam Napoli<p>
+                    <a class="details-button" href="product.html?id=2">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza mortadella.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza mortadella</p>
+                    <p class="description">sos alb, mortadella , mozzarella fresca, fistic<p>
+                    <a class="details-button" href="product.html?id=3">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza cu prosciutto cotto si ciupercim.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza prosciutto e funghi</p>
+                    <p class="description">sos de roșii, mozzarella, prosciutto cotto, ciuperci, măsline<p>
+                    <a class="details-button" href="product.html?id=4">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza spianata, gorgonzona si ciuperci.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza spianata</p>
+                    <p class="description">sos de roșii, mozzarella, salam spianata, ardei iute<p>
+                    <a class="details-button" href="product.html?id=5">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza margherita.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza margherita</p>
+                    <p class="description">sos de rosii, mozzarella, mozzarella fresca, busuioc<p>
+                    <a class="details-button" href="product.html?id=6">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza quatro formagi.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza quattro formaggi</p>
+                    <p class="description">sos alb, mozzarella, gorgonzola, emmeltaler, parmezan<p>
+                    <a class="details-button" href="product.html?id=7">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza cu ton.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza tonno</p>
+                    <p class="description">sos de roșii, mozzarella, ton, ceapă, masline<p>
+                    <a class="details-button" href="product.html?id=8">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza cu prosciutto cotto.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza prosciutto cotto</p>
+                    <p class="description">sos de roșii, mozzarella, prosciutto cotto<p>
+                    <a class="details-button" href="product.html?id=9">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza cu salsiccia si ceapa.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza cipola, salsiccia e parmegiano</p>
+                    <p class="description">sos de roșii, mozzarella, salsiccia, ceapa, parmezan<p>
+                    <a class="details-button" href="product.html?id=10">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza carnivora.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza carnivora</p>
+                    <p class="description">sos de roșii, mozzarella, pancetta, prosciutto cotto, salam napoli<p>
+                    <a class="details-button" href="product.html?id=11">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza de post.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza de post (legume grill)</p>
+                    <p class="description">sos de roșii, mozzarella, vinete, ardei<p>
+                    <a class="details-button" href="product.html?id=12">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza post.jpeg" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza post (zucchini)</p>
+                    <p class="description">sos de roșii, zucchini, ulei măsline, usturoi, roșii cherry<p>
+                    <a class="details-button" href="product.html?id=13">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/PIZZA amatriciana.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza amatriciana</p>
+                    <p class="description">sos de roșii, mozzarella, rosii, pancetta, peccorino<p>
+                    <a class="details-button" href="product.html?id=14">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/PIZZA  capriciosa.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza capriciosa</p>
+                    <p class="description">sos de roșii, mozzarella, prosciutto cotto, ciuperci, masline, anghinare<p>
+                    <a class="details-button" href="product.html?id=15">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/pizza bresaola new.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza Bresaola</p>
+                    <p class="description">sos de roșii, mozzarella proaspata, bresaola, rucolla, crema de otet balsamic, parmezan<p>
+                    <a class="details-button" href="product.html?id=16">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                    <img src="/images/PIZZA salsicia si broccoli.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza salsiccia si broccoli</p>
+                    <p class="description">sos de roșii, mozzarella, salsiccia, broccoli<p>
+                    <a class="details-button" href="product.html?id=17">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza spianata, gorgonzona si ciuperci.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza spianata, gorgonzola si ciuperci</p>
+                    <p class="description">sos de roșii, mozzarella, spianata, gorgonzola, ciuperci<p>
+                    <a class="details-button" href="product.html?id=18">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/PIZZA pui si ciuperci.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza pui si ciuperci</p>
+                    <p class="description">sos de roșii, mozzarella, piept pui, ciuperci, ceapa rosie, pancetta<p>
+                    <a class="details-button" href="product.html?id=19">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/pizza salsiccia si ciuperci.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Pizza salsiccia și ciuperci</p>
+                    <p class="description">sos de roșii, mozzarella, salsiccia și ciuperci<p>
+                    <a class="details-button" href="product.html?id=45">Vezi detalii</a>
+                </div>
+                <div class="pizza-item">
+                    <div class="pizza-item-photo-container">
+                        <img src="/images/Foccacia.png" alt="pizza photo">
+                    </div>
+                    <p class="title">Foccacia</p>
+                    <p class="description">roșii cherry, măsline, rozmarin, ulei de măsline<p>
+                    <a class="details-button" href="product.html?id=46">Vezi detalii</a>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div class="menu-sandwich">
+            <h2 class="menu-title">Sandwich</h2>
+
+            <div class="sandwich-container">
+                <div class="sandwich-item">
+                    <div class="sandwich-item-left">
+                        <p class="sandwich-title">Sandwich cu prosciutto crudo</p>
+                        <p class="sandwich-description">mozzarella, prosciutto crudo, rucola, parmezan<p> 
+                        <a class="details-button" href="product.html?id=20">Vezi detalii</a>
+                    </div>
+                    <div class="sandwich-item-right">
+                        <img src="/images/sandwich cu prosciutto crudo si rucola.png" alt="sandwich photo">
+                    </div>
+                </div>
+                <div class="sandwich-item">
+                    <div class="sandwich-item-left">
+                        <p class="sandwich-title">Sandwich cu prosciutto cotto</p>
+                        <p class="sandwich-description">prosciutto cotto, mozzarella fresca, provola afumicata, salata iceberg, rosii<p>
+                        <a class="details-button" href="product.html?id=21">Vezi detalii</a>
+                    </div>
+                    <div class="sandwich-item-right">
+                        <img src="/images/sandwich cu prosciutto cotto.png" alt="sandwich photo">
+                    </div>
+                </div>
+                <div class="sandwich-item">
+                    <div class="sandwich-item-left">
+                        <p class="sandwich-title">Sandwich cu salam napoli</p>
+                        <p class="sandwich-description">mozzarella fresca, salam napoli, salata, rosii<p>
+                        <a class="details-button" href="product.html?id=22">Vezi detalii</a>
+                    </div>
+                    <div class="sandwich-item-right">
+                        <img src="/images/sandwich salam new.png" alt="sandwich photo">
+                    </div>
+                </div>
+                <div class="sandwich-item">
+                    <div class="sandwich-item-left">
+                        <p class="sandwich-title">Sandwich cu mortadella</p>
+                        <p class="sandwich-description">mortadella, mozzarella fresca, salata iceberg<p>
+                        <a class="details-button" href="product.html?id=23">Vezi detalii</a>
+                    </div>
+                    <div class="sandwich-item-right">
+                        <img src="/images/sandwich mortadella new.png" alt="sandwich photo">
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        <div class="menu-pastry">
+            <h2 class="menu-title">Patiserie</h2>
+            <div class="pastry-container">
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel cu mar.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu măr</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%<p>
+                    <a class="details-button" href="product.html?id=24">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu brânză dulce și stafide</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%<p>
+                    <a class="details-button" href="product.html?id=25">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel cu visine.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu vișine</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=26">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu vanilie</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=27">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu ciocolată</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=28">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu caise</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=43">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/strudel.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Ștrudel cu fructe de pădure</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=44">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/placinta dobrogeana.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Plăcintă dobrogeană</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=29">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig cu sare.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu sare</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=30">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig cu mac.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu mac</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=31">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig cu susan.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu susan</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=32">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig cu seminte de floarea soarelui.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu semințe floarea soarelui</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=33">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig cu cascaval.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu cașcaval</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=34">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig umplut cu crema de mar si scortisoara.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu măr și scorțișoară</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=35">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig umplut cu crema de alune.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu cremă alune</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=36">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/COVRIG UMPLUT.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu vanilie</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=37">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/covrig umplut cu crema de visine.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Covrig cu vișine</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=38">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/bakeron cu carnati usor picant.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Bakeron cu cârnat ușor picant</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=39">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/bakeron cu cremvusti de pui.jpeg" alt="pastry photo">
+                    </div> 
+                    <p class="title">Bakeron cremwurst pui</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=40">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/trigon.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Trigon brânză sărată</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=41">Vezi detalii</a>
+                </div>
+                <div class="pastry-item">
+                    <div class="pastry-item-photo-container">
+                        <img src="/images/trigon.png" alt="pastry photo">
+                    </div> 
+                    <p class="title">Trigon brânză dulce</p>
+                    <p class="description">Făină, apă, margarină, zahăr, oțet, umplutură măr 15%, (sirop glucoză-fructoză), sare, easy croissant<p>
+                    <a class="details-button" href="product.html?id=42">Vezi detalii</a>
+                </div>
+        </div>
+
+        <div class="menu-beverages">
+            <h2 class="menu-title" style="color: black;">Băuturi</h2>
+            <div class="beverages-container">
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/apa-minerala-0-5l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Apă minerală 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/apa-plata-0-5l.avif" alt="beverage photo"></div>
+                    <p class="title">Apă plată 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/burn-0-25l.webp" alt="beverage photo"></div>                    
+                    <p class="title">Burn 0.25L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/cappy-pulpy-orange-0-33l.webp" alt="beverage photo"></div>                    
+                    <p class="title">Cappy pulpy orange 0.33L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img">
+                        <img src="/images/coca-cola-doza-0-33l.avif" alt="beverage photo">
+                    </div>
+                    <p class="title">Coca-Cola doză 0.33L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/coca-cola-0-5l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Coca-Cola 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/coca-cola-zero-doza-0-33l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Coca-Cola Zero doză 0.33L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/coca-coca-zero-0-5l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Coca-Cola Zero 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/fanta-portocale-0-5l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Fanta portocale 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/fanta-struguri-0-5l.avif" alt="beverage photo"></div>
+                    <p class="title">Fanta struguri 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/fuzetea-lamaie-si-citronela-0-5l.avif" alt="beverage photo"></div>
+                    <p class="title">Fuzetea lămâie și citronela 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/fuzetea-piersici-si-hibiscus-0-5l.avif" alt="beverage photo"></div>
+                    <p class="title">Fuzetea piersici și hibiscus 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/schweppes-tonic-0-5l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Schweppes tonic 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/sprite-0-5l.avif" alt="beverage photo"></div>                    
+                    <p class="title">Sprite 0.5L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/chefir.avif" alt="beverage photo"></div>                    
+                    <p class="title">Chefir Albalact 0.33L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/sana.jpg" alt="beverage photo"></div>                    
+                    <p class="title">Sana Albalact 0.33L</p>
+                </div>
+                <div class="beverages-item">
+                    <div class="bev-img"><img src="/images/zuzu.webp" width="500px" alt="beverage photo"></div>
+                    <p class="title">Iaurt Zuzu natural de băut 2% grăsime 0.33L</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-item">
+            <h3>Social Media</h3>
+            <a href="https://www.facebook.com/profile.php?id=61551114673277" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href="https://www.instagram.com/bakeronromania/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@bakeronromania" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+        <div class="footer-item">
+            <h3>Informații utile</h3>
+            <a href="about.html">Despre noi</a>
+            <a href="https://anpc.ro" target="_blank">ANPC</a>
+            <a href="gdpr.html">GDPR</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contact</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Bulevardul Eroilor, Nr. 42</p> 
+            <p>Cluj-Napoca, Romania</p>
+            <p><i class="fas fa-phone"></i> 0771 502 664</p>
+            <p><i class="fas fa-envelope"></i> office@bakeron.ro</p>
+        </div>
+        <div class="footer-below">
+            <a href="https://anpc.ro/ce-este-sal/" target="_blank"><img src="images/anpc-sal-1.png" width="200px" alt=""></a>
+            <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO" target="_blank"><img src="images/anpc-sol-1.png" width="200px" alt=""></a>
+        </div>
+        <p style="color: #EB6530">&copy; Bakeron 2024. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>

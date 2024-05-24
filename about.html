@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <title>Bakeron</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="website icon" type="png" href="images/BAKERON_-_logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/BAKERON_-_logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="menu.html">Meniu</a></li>
+                    <li><a href="location.html">Locații</a></li>
+                    <li><a href="about.html">Despre noi</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="index.html">Acasă</a></li>
+                    <li class="hideOnMobile"><a href="menu.html">Meniu</a></li>
+                    <li class="hideOnMobile"><a href="location.html">Locații</a></li>
+                    <li class="hideOnMobile"><a href="about.html">Despre noi</a></li>
+                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                    <li class="menu-mobile-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width= "24" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="about-us">
+            <h1>Despre noi</h1>
+            <img src="images/backgroundabout.png" alt="" class="overlay-img">
+        </div>
+    </section>
+
+    <section class="about-info">
+        <div class="about-info-container">
+            <div class="row">
+                <div class="square">
+                    <h3 style="margin-top:-20px; font-size: 25px; color:#EB6530">Calitate fără compromisuri</h3>
+                    <p>Fondat cu dragoste și dăruire, la Bakeron oferim clienților 
+                        o experiență de neuitat la fiecare vizită. Credem în calitatea fără compromisuri și în tradiția artizanală, astfel că
+                        fiecare produs este creat cu atenție meticuloasă, folosind doar cele mai bune ingrediente naturale, 
+                        pentru a vă oferi gusturi autentice și proaspete.</p>
+                </div>
+                <div class="square">
+                    <img src="images/pizza1.jpg" alt="Pizza photo" style="max-width:100%; margin-top: 100px">
+                </div>
+            </div>
+    
+            <div class="row2">
+                <div class="square">
+                    <img src="images/aluat.jpg" alt="Pizza photo" style="max-width:100%">
+                </div>
+                <div class="square">
+                    <h3 style="margin-top:-20px; font-size: 25px; color:#EB6530">Locul unde pasiunea întâlnește arta culinară</h3>
+                    <p>Descoperă tradiția gustului roman adusă direct la tine în inima Cluj-Napoca cu pizza noastră al taglio. 
+                        Cu o selecție rafinată de trei tipuri de făină și un aluat perfect maturat timp de 72 de ore, o hidratare de minim 80%, 
+                        fiecare mușcătură este o călătorie gustativă în lumea savoarelor autentice italiene. 
+                        Bucură-te de textura pufosă și crocantă care definește pizza noastră al taglio!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h1 style="color:#EB6530; font-size:35px;">Ce spun clienții noștri?</h1>
+            <div class="testimonial-row">
+                <div class="testimonial-item show">
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                    </div>
+                    <p class="review">"Ingredientele folosite sunt mereu de cea mai bună calitate, iar echipa este extrem de prietenoasă. 
+                        Pizza este pur și simplu delicioasă, iar experiența este întotdeauna una plăcută. Recomand!"</p>
+                    <p class="review-name">Ana</p>
+                </div>
+                <div class="testimonial-item invisible">
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                    </div>
+                    <p class="review">"Produsele sunt proaspete, gustul este divin, iar raportul calitate/preț este foarte bun.
+                        Recomand cu căldură și cu siguranță voi reveni!"</p>
+                    <p class="review-name">Miruna</p>
+                </div>
+                <div class="testimonial-item show">
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                    </div>
+                    <p class="review">"Delicios. Am mâncat cel mai mare sandwich cu foccacia fix cum îmi place mie. 🇮🇹 Iar pizza cu blat pufos și crunchy este demențială.
+                         Mie îmi place mult pizza bresaola cu carne de vita, dar și zucchini. Recomand!"</p>
+                    <p class="review-name">Anca</p>
+                </div>
+                <div class="testimonial-item invisible">
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                    </div>
+                    <p class="review">"Sendvișul focaccia cu mortadella este absolut fenomenal! Am mâncat și pizza și este delicioasă!"</p>
+                    <p class="review-name">Alexandra</p>
+                </div>
+                <div class="testimonial-item show">
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                    </div>
+                    <p class="review">"Locația e foarte bună, iar gustul mâncării e pe măsură. Personalul e foarte prietenos, și, deși am ajuns înainte de închidere, s-au oferit să îmi facă 
+                        sandwish-urile fresh. Recomand cu drag!"</p>
+                    <p class="review-name">Andreea</p>
+                </div>
+                <div class="testimonial-item invisible">
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                        <i class="fa-solid fa-star" style="font-size: 30px; color: #EB6530;"></i>
+                    </div>
+                    <p class="review">"Superb 11/10. Așa pizza bună! Cu raport preț/calitate 11/10, țineți-o tot așa!"</p>
+                    <p class="review-name">Roberto</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons" style="margin-bottom: 50px;">
+            <button onclick="toggleChildren()" style="background-color: #EB6530; border: none; cursor: pointer;">
+                <i class="fa-solid fa-arrow-left" style="font-size:20px; color: white; background-color: #EB6530;"></i>
+            </button>
+            <button onclick="toggleChildren()" style="background-color: #EB6530; border: none; cursor: pointer;">
+                <i class="fa-solid fa-arrow-right" style="font-size:20px; color: white; background-color: #EB6530;"></i>
+            </button>
+            <a href="https://www.google.com/search?cs=1&hl=ro&biw=1495&bih=723&q=BAKERON%20Recenzii&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDGxMDGwNDM0NTUHso1MzQwsNzAyvmIUcHL0dg3y91MISk1OzavKzFzEiiEEAL_GYYNBAAAA&rldimm=14484096155714425609&tbm=lcl&sa=X&ved=0CAYQ5foLahcKEwiw8aeI0JGGAxUAAAAAHQAAAAAQCg#lkt=LocalPoiReviews&arid=ChZDSUhNMG9nS0VJQ0FnSUR0LVpPbFF3EAE" 
+            target="_blank" class="invisible" style="color: #EB6530; text-decoration:wavy;">Vezi alte recenzii >></a>
+        </div>
+        
+        <hr style="background-color: #EB6530; width: 100%; height: 4px; border: none;">
+    </section>
+
+    <footer>
+        <div class="footer-item">
+            <h3>Social Media</h3>
+            <a href="https://www.facebook.com/profile.php?id=61551114673277" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href="https://www.instagram.com/bakeronromania/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@bakeronromania" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+        <div class="footer-item">
+            <h3>Informații utile</h3>
+            <a href="about.html">Despre noi</a>
+            <a href="https://anpc.ro" target="_blank">ANPC</a>
+            <a href="gdpr.html">GDPR</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contact</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Bulevardul Eroilor, Nr. 42</p> 
+            <p> Cluj-Napoca, Romania</p>
+            <p><i class="fas fa-phone"></i> 0771 502 664</p>
+            <p><i class="fas fa-envelope"></i> office@bakeron.ro</p>
+        </div>
+        <div class="footer-below">
+            <a href="https://anpc.ro/ce-este-sal/" target="_blank"><img src="images/anpc-sal-1.png" width="200px" alt=""></a>
+            <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO" target="_blank"><img src="images/anpc-sol-1.png" width="200px" alt=""></a>
+        </div>
+        <p style="color: #EB6530">&copy; Bakeron 2024. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
