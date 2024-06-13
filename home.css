@@ -3,7 +3,7 @@ section{
 }
 
 .home{
-    background-image: url('images/home-pizza.jpg');
+    background-image: url('images/pizza_2.jpeg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -124,19 +124,19 @@ button{
 }
 
 #home-content-menu{
-    background-image: url('images/products.jpg');
+    background-image: url('images/pizza_2.jpeg');
     background-size: cover;
     background-position: center;
 }
 
 #home-content-location{
-    background-image: url('images/location.jpg');
+    background-image: url('images/locatie-cluj.jpeg');
     background-size: cover;
     background-position: center;
 }
 
 #home-content-story{
-    background-image: url('images/story.jpeg');
+    background-image: url('images/BAKERON\ -\ logo\ fundal\ negru.jpg');
     background-size: cover;
     background-position: center;
 }
