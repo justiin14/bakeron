@@ -200,7 +200,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, sulfiți. Poate să conțină urme de: soia, muștar, țelină."
         },
         "13": {
-            image: "images/pizza/pizza post.jpeg",
+            image: "images/pizza/pizza post.png",
             name: "Pizza post (zucchini)",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, zucchini, ulei măsline, usturoi, roșii cherry. ",
