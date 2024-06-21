@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function fetchProduct(productId) {
     const products = {
         "1": {
-            image: "images/pizza prosciutto crudo.png",
+            image: "images/pizza/pizza prosciutto crudo.png",
             name: "Pizza prosciutto crudo și rucolla",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, prosciutto crudo, rucola, parmezan.",
@@ -24,7 +24,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "2": {
-            image: "images/pizza salami.png",
+            image: "images/pizza/pizza salami.png",
             name: "Pizza salami",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Făină de grâu, făină de orez, apă, drojdie, zahăr, sare, ulei floarea soarelui, ulei măsline, sos de roșii (sos roșii, ulei de măsline, apă, oregano, busuioc, piper negru), mozzarella, salam Napoli.",
@@ -40,7 +40,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "3": {
-            image: "images/pizza mortadella.png",
+            image: "images/pizza/pizza mortadella.png",
             name: "Pizza mortadella",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos alb (smantana de gatit, sare, piper negru), mortadella, mozzarella fresca, fistic.",
@@ -56,7 +56,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte, arahide. Poate să conțină urme de: soia, muștar."
         },
         "4": {
-            image: "images/pizza cu prosciutto cotto si ciupercim.png",
+            image: "images/pizza/pizza cu prosciutto cotto si ciupercim.png",
             name: "Pizza prosciuttto e funghi",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, prosciutto cotto, ciuperci, măsline.",
@@ -72,7 +72,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "5": {
-            image: "images/pizza spianata, gorgonzona si ciuperci.png",
+            image: "images/pizza/pizza spianata, gorgonzola si ciuperci.png",
             name: "Pizza spianata",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, salam spianata, ardel iute.",
@@ -88,7 +88,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "6": {
-            image: "images/pizza margherita.png",
+            image: "images/pizza/pizza margherita.png",
             name: "Pizza margherita",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de rosii, mozzarella, mozzarella fresca, busuioc.",
@@ -104,7 +104,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "7": {
-            image: "images/pizza quatro formagi.png",
+            image: "images/pizza/pizza quatro formagi.png",
             name: "Pizza quattro formaggi",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos alb (smantana de gatit, sare, piper negru),, mozzarella, gorgonzola, emmeltaler, parmezan.",
@@ -120,7 +120,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "8": {
-            image: "images/pizza cu ton.png",
+            image: "images/pizza/pizza cu ton.png",
             name: "Pizza tonno",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, ton, ceapă, măsline.",
@@ -136,7 +136,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "9": {
-            image: "images/pizza cu prosciutto cotto.png",
+            image: "images/pizza/pizza cu prosciutto cotto.png",
             name: "Pizza prosciutto cotto",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, prosciutto cotto.",
@@ -152,7 +152,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "10": {
-            image: "images/pizza cu salsiccia si ceapa.png",
+            image: "images/pizza/pizza cu salsiccia si ceapa.png",
             name: "Pizza cipola, salsiccia e parmegiano",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de  roșii, mozzarella, salsiccia, ceapă, parmezan.",
@@ -168,7 +168,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "11": {
-            image: "images/pizza carnivora.png",
+            image: "images/pizza/pizza carnivora.png",
             name: "Pizza carnivora",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, pancetta, prosciutto cotto, salam Napoli.",
@@ -184,7 +184,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "12": {
-            image: "images/pizza de post.png",
+            image: "images/pizza/pizza de post.png",
             name: "Pizza de post (legume grill)",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, legume la grill (ardei, vinete).",
@@ -200,7 +200,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, sulfiți. Poate să conțină urme de: soia, muștar, țelină."
         },
         "13": {
-            image: "images/pizza post.jpeg",
+            image: "images/pizza/pizza post.jpeg",
             name: "Pizza post (zucchini)",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, zucchini, ulei măsline, usturoi, roșii cherry. ",
@@ -216,7 +216,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten. Poate să conțină urme de: soia, muștar, țelină."
         },
         "14": {
-            image: "images/PIZZA amatriciana.png",
+            image: "images/pizza/PIZZA amatriciana.png",
             name: "Pizza amatriciana",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, rosii, pancetta si peccorino",
@@ -232,7 +232,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "15": {
-            image: "images/PIZZA  capriciosa.png",
+            image: "images/pizza/PIZZA  capriciosa.png",
             name: "Pizza capriciosa",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, mozzarella, prosciutto cotto, ciuperci, masline, anghinare.",
@@ -248,7 +248,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "16": {
-            image: "images/pizza bresaola new.png",
+            image: "images/pizza/pizza bresaola new.png",
             name: "Pizza Bresaola",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, bresaola, rucolla, crema de otet balsamic, parmezan.",
@@ -264,7 +264,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "17": {
-            image: "images/PIZZA salsicia si broccoli.png",
+            image: "images/pizza/PIZZA salsicia si broccoli.png",
             name: "Pizza salsiccia si broccoli",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, salsiccia si broccoli",
@@ -280,7 +280,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "18": {
-            image: "images/pizza spianata, gorgonzona si ciuperci.png",
+            image: "images/pizza/pizza spianata, gorgonzola si ciuperci.png",
             name: "Pizza spianata, gorgonzola si ciuperci",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, spianata, gorgonzola, ciuperci.",
@@ -296,7 +296,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "19": {
-            image: "images/PIZZA pui si ciuperci.png",
+            image: "images/pizza/PIZZA pui si ciuperci.png",
             name: "Pizza pui si ciuperci",
             description: "Pizza la felie cu blat ROMAN 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, piept pui, ciuperci, ceapa rosie, pancetta",
@@ -312,7 +312,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "20": {
-            image: "images/sandwich cu prosciutto crudo si rucola.png",
+            image: "images/sandwich/sandwich cu prosciutto crudo si rucola.png",
             name: "Sandwich cu prosciutto crudo",
             description: "Blat de focaccia cu dimensiunea 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, mozzarella buffola, prosciutto crudo, rucola, parmezan",
@@ -328,7 +328,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten din grâu, lapte. Poate să conțină urme de: susan, arahide, ouă, soia, nuci, sulfiți."
         },
         "21": {
-            image: "images/sandwich cu prosciutto cotto.png",
+            image: "images/sandwich/sandwich cu prosciutto cotto.png",
             name: "Sandwich cu prosciutto cotto",
             description: "Blat de focaccia cu dimensiunea 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, mozzarella buffola, prosciutto crudo, rucola, parmezan",
@@ -344,7 +344,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten din grâu, lapte. Poate să conțină urme de: susan, arahide, ouă, soia, nuci, sulfiți."
         },
         "22": {
-            image: "images/sandwich salam new.png",
+            image: "images/sandwich/sandwich salam new.png",
             name: "Sandwich cu salam napoli",
             description: "Blat de focaccia cu dimensiunea 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, mozzarella buffola, salam Napoli, rucola, mozzarela",
@@ -360,7 +360,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "23": {
-            image: "images/sandwich mortadella new.png",
+            image: "images/sandwich/sandwich mortadella new.png",
             name: "Sandwich cu mortadella",
             description: "Blat de focaccia cu dimensiunea 12x20 cm",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, mozzarella buffola, mortadella, fistic, ulei masline",
@@ -712,7 +712,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, soia și derivate. Poate să conțină urme de: lapte, susan, arahide, ouă, nuci, sulfiți."
         },
         "45": {
-            image: "images/pizza salsiccia si ciuperci.png",
+            image: "images/pizza/pizza salsiccia si ciuperci.png",
             name: "Pizza salsiccia și ciuperci",
             description: "Patiserie",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, sos de roșii (sos rosii, ulei de masline, apa, oregano, busuioc, piper negru), mozzarella, salsiccia si ciuperci.",
@@ -728,7 +728,7 @@ function fetchProduct(productId) {
             alergeni: "Gluten, lapte. Poate să conțină urme de: soia, muștar."
         },
         "46": {
-            image: "images/Foccacia.png",
+            image: "images/pizza/Foccacia.png",
             name: "Foccacia",
             description: "Patiserie",
             ingredients: "Faina de GRAU, faina de orez, apa, drojdie, zahar, sare, ulei floarea soarelui, ulei masline, roșii cherry, măsline, rozmarin, ulei de măsline.",
