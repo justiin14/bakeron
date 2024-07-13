@@ -75,7 +75,11 @@
                     <input type="email" name="email" id="email" placeholder="Adresa de email" required>
                     <h3>Mesajul tău*</h3>
                     <textarea name="message" id="message" placeholder="Ce dorești să ne transmiți?" rows="5" required></textarea>
-                    <input type="submit" value="Trimite">
+                    <label>
+                        <input type="checkbox" id="captchaCheckbox" width="20px">
+                        Sunt de acord cu prelucrarea datelor
+                    </label><br><br>
+                    <input type="submit" value="Trimite" id="submitButton" disabled>
                     <input name="access_key" hidden value="2a27512e-4d0b-4c5e-a94e-e87d68833961">
                     <input name="redirect" type="hidden" id="redirect">
                 </form>
@@ -111,6 +115,12 @@
     </footer>
 
     <script src="menu.js"></script>
+    <script>
+        document.getElementById('captchaCheckbox').addEventListener('change', function() {
+            const submitButton = document.getElementById('submitButton');
+            submitButton.disabled = !this.checked;
+        });
+    </script>
     <script>
         document.getElementById('redirect').value = window.location.href;
     </script>
